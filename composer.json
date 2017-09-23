@@ -15,7 +15,7 @@
         "phpspec/phpspec": "^4.0"
     },
     "config": {
-        "bin-dir": "bin"
+        "bin-dir": "vendor/bin"
     },
     "autoload": {
         "psr-0": {
