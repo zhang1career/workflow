@@ -1,0 +1,34 @@
+{
+    "name": "zhang1career/workflow",
+    "type": "project",
+    "authors": [
+        {
+            "name": "曾经瘦过",
+            "email": "zhang_career@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpspec/phpspec": "^4.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        },
+        "psr-4": {
+            "zhang1career\\workflow\\": "src",
+            "zhang1career\\workflow\\inc\\": "inc"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "zhang1career\\workflow\\tests\\": "tests"
+        }
+    }
+}
